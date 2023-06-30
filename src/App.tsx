@@ -2,23 +2,24 @@
  * @Author: zhaozhida zhaozhida@qiniu.com
  * @Date: 2023-06-30 11:00:36
  * @LastEditors: zhaozhida zhaozhida@qiniu.com
- * @LastEditTime: 2023-06-30 12:28:35
- * @Description: 
+ * @LastEditTime: 2023-06-30 14:08:56
+ * @Description:
  */
-import ControlBtns from "./components/ControlBtns"
-import Counter from "./components/Counter"
-import Other from "./components/Other"
+import ControlBtns from './components/ControlBtns';
+import Count from './components/Count';
+import Count2 from './components/Count2';
 
 function App() {
+  console.log('<App /> render')
+
   return (
     <>
-      <Other />
-      <Counter />
+      <Count />
       <ControlBtns />
+
+      <Count2 />
     </>
-  )
+  );
 }
 
-export default App
-
-
+export default App;
