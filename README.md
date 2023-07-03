@@ -2,9 +2,9 @@
  * @Author: zhaozhida zhaozhida@qiniu.com
  * @Date: 2023-06-30 15:00:57
  * @LastEditors: zhaozhida zhaozhida@qiniu.com
- * @LastEditTime: 2023-06-30 16:57:22
+ * @LastEditTime: 2023-07-03 10:38:46
  * @Description: 
 -->
-# try-it
+# nextjs
 
-各种三方库的学习、尝试、测试，在不同分支下
+next version: 13.4.7
