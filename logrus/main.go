@@ -2,7 +2,7 @@
  * @Author: zhaozhida zhaozhida@qiniu.com
  * @Date: 2023-07-14 11:12:01
  * @LastEditors: zhaozhida zhaozhida@qiniu.com
- * @LastEditTime: 2023-07-14 19:12:07
+ * @LastEditTime: 2023-07-18 10:09:00
  * @Description:
  */
 package main
@@ -18,10 +18,10 @@ func main() {
 	logger := logrus.New()
 	logger.SetOutput(&lumberjack.Logger{
 		Filename:   "log",
-		MaxSize:    100, // megabytes
-		MaxBackups: 3,
-		MaxAge:     7,
-		Compress:   true, // disabled by default
+		MaxSize:    100,  // 日志文件的最大大小(mb)，超过这个大小后，会自动备份，并创建一个新的日志文件继续写入
+		MaxBackups: 3,    // 备份文件的最大数量
+		MaxAge:     7,    // 备份文件的最大保存时间
+		Compress:   true, // 备份文件是否压缩(gzip)
 	})
 
 	logger.SetFormatter(&logrus.JSONFormatter{})
