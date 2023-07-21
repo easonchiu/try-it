@@ -15,6 +15,9 @@
     "@mui/icons-material": "^5.14.1",
     "@mui/material": "^5.14.1",
     "@mui/styled-engine": "^5.13.2",
+    "formstate-x": "^3.1.1",
+    "mobx": "^6.10.0",
+    "mobx-react": "^9.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
