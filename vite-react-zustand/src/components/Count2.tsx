@@ -8,8 +8,6 @@ import useCountStore from '../store/store';
  * @Description:
  */
 function Count2() {
-  console.log('<Count2 /> render');
-
   const count2 = useCountStore(state => state.count2);
   const add2 = useCountStore(state => state.add2);
   const asyncAdd = useCountStore(state => state.asyncAdd);

@@ -9,8 +9,6 @@ import { ReactNode } from 'react';
 import useCountStore from '../store/store';
 
 function Count(): ReactNode {
-  console.log('<Count /> render');
-
   const count = useCountStore(state => state.count);
   return <p>count value: {count}</p>;
 }

@@ -8,8 +8,6 @@
 import useCountStore from "../store/store"
 
 function ControlBtns() {
-  console.log('<ControlBtns /> render')
-
   const add = useCountStore(state => state.add)
   const subtract = useCountStore(state => state.subtract)
   const clear = useCountStore(state => state.clear)
